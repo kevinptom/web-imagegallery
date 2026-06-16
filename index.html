@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Photography Portfolio</h1>
+        <p>Click on any image to expand</p>
+    </header>
+
+    <main>
+        <!-- The JS loop will inject images here -->
+        <div class="gallery-container" id="gallery"></div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="modal" id="imageModal">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <img class="modal-content" id="fullImage" alt="Expanded view">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
